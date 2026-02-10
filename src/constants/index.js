@@ -1,14 +1,10 @@
 
 
 export const mySocials = [
-  {
-    name: "WhatsApp",
-    href: "",
-    icon: "/assets/socials/whatsApp.svg",
-  },
+ 
   {
     name: "Linkedin",
-    href: "https://www.linkedin.com/in/ali-sanati/",
+    href: "https://www.linkedin.com/in/vignesh-venugopal-1b5a02276/",
     icon: "/assets/socials/linkedIn.svg",
   },
   
@@ -104,3 +100,83 @@ export const reviews = [
     img: "https://robohash.org/eve",
   },
 ];
+
+export const skills = [
+  {
+    name: "React",
+    category: "Frontend",
+    description: "Building dynamic and interactive user interfaces with modern React patterns and hooks.",
+    logo: "/assets/logos/react.svg",
+  },
+    {
+    name: "Next.js",
+    category: "Frontend",
+    description: "Developing server-side rendered and statically generated web applications with React framework.",
+    logo: "/assets/logos/nextjs.svg",
+  },
+  {
+    name: "JavaScript",
+    category: "Language",
+    description: "Crafting efficient and scalable solutions with modern JavaScript ES6+ features.",
+    logo: "/assets/logos/javascript.svg",
+  },
+ 
+  {
+    name: "Tailwind CSS",
+    category: "Styling",
+    description: "Creating beautiful, responsive designs with utility-first CSS framework.",
+    logo: "/assets/logos/tailwindcss.svg",
+  },
+
+
+  {
+    name: "GitHub",
+    category: "DevOps",
+    description: "Version control and collaboration using Git and GitHub workflows.",
+    logo: "/assets/logos/github.svg",
+  },
+  {
+    name: "HTML5",
+    category: "Frontend",
+    description: "Structuring semantic and accessible web applications with modern HTML.",
+    logo: "/assets/logos/html5.svg",
+  },
+  {
+    name: "CSS3",
+    category: "Styling",
+    description: "Styling modern web applications with advanced CSS3 features and animations.",
+    logo: "/assets/logos/css3.svg",
+  },
+ 
+ 
+  {
+    name: "Auth0",
+    category: "Authentication",
+    description: "Implementing secure authentication and authorization solutions.",
+    logo: "/assets/logos/auth0.svg",
+  },
+  {
+    name: "Vite.js",
+    category: "Build Tool",
+    description: "Fast and modern build tool for optimized development experience.",
+    logo: "/assets/logos/vitejs.svg",
+  },
+  {
+    name: "Jira",
+    category: "Project Management",
+    description: "Managing agile projects and tracking development workflows efficiently.",
+    logo: "/assets/logos/jira.svg",
+  },
+  {
+    name: "Figma",
+    category: "Design",
+    description: "Creating and collaborating on UI/UX designs and prototypes.",
+    logo: "/assets/logos/figma.svg",
+  },
+  {
+    name: "Visual Studio Code",
+    category: "Tools",
+    description: "Primary code editor for efficient development workflow.",
+    logo: "/assets/logos/visualstudiocode.svg",
+  },
+]
